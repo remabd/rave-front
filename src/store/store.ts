@@ -1,7 +1,10 @@
 import { configureStore } from '@reduxjs/toolkit';
+import recordReducer from './recordSlice';
 
 export const store = configureStore({
-    reducer: {},
+    reducer: {
+        record: recordReducer,
+    },
 });
 
 // Get the type of our store variable
