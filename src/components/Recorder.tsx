@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { View, StyleSheet, Button } from 'react-native';
 import {
     useAudioRecorder,
