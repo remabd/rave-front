@@ -45,7 +45,7 @@ export default function Recorder() {
                 name: name.trim() || `Record ${new Date().toLocaleString()}`,
                 uri,
                 date: Date.now(),
-            }),
+            })
         );
         setPendingUri(null);
         setName('');

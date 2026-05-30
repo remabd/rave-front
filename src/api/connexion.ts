@@ -1,9 +1,5 @@
 import axios from 'axios';
-import {
-    uploadAsync,
-    downloadAsync,
-    FileSystemUploadType,
-} from 'expo-file-system/legacy';
+import { uploadAsync, downloadAsync, FileSystemUploadType } from 'expo-file-system/legacy';
 import { Response } from '../models/Reponse';
 
 /**
